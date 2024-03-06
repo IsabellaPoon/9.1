@@ -1,2 +1,6 @@
 public class Baguette extends Bread{
+    private double length;
+    public void size(){
+        System.out.println("This Baguette is "+length+" feet long.");
+    }
 }
