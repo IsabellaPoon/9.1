@@ -1,0 +1,7 @@
+public class Bread {
+private double price;
+
+public void slice(){
+    System.out.println("Bread has been sliced.");
+}
+}
