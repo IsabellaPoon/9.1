@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-    Bread bague = new Bread();
+    Bread bague = new Baguette();
     bague.slice();
     }
 }
