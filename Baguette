@@ -1,6 +1,11 @@
 public class Baguette extends Bread{
     private double length;
+
+    public Baguette(Double l, String t){
+        super(t);
+        length = l;
+    }
     public void size(){
-        System.out.println("This Baguette is "+length+" feet long.");
+        System.out.println("This Baguette is "+length+" cm long.");
     }
 }
