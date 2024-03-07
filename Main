@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-    Bread bague = new Bread();
-    bague.slice();
+        String b = "Baguette";
+        Double s = 31.4;
+        Bread bague = new Bread(b);
+        bague.slice();
+        Baguette bag = new Baguette(s,b);
+        bag.size();
     }
 }
