@@ -1,7 +1,13 @@
 public class Bread {
-private double price;
-private int slices;
-public void slice(){
-    System.out.println("Bread has been sliced into " +slices+" pieces.");
-}
+
+    private int slices;
+    private String type;
+
+    public Bread(String t){
+        type = t;
+    }
+    public void slice(){
+        System.out.println("Bread has been sliced into " +slices+" pieces.");
+    }
+    public Bread(){}
 }
